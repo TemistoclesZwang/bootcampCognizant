@@ -1,4 +1,4 @@
-package br.com.teste.calculadora;
+package br.com.AulaGIt.calculadora;
 
 import java.util.Scanner;
 

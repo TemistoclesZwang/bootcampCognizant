@@ -1,4 +1,4 @@
-package br.com.teste.model;
+package br.com.AulaGIt.model;
 
 public class Gato {
     private String nome;
