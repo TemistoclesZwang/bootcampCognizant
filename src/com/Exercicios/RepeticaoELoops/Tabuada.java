@@ -12,6 +12,7 @@ public class Tabuada {
 
     public static void main(String[] args) {
         gerarTabuada();
+        
     }
 
     public static int entradaDados() {
