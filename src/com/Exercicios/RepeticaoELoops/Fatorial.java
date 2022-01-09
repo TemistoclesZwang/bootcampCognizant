@@ -26,7 +26,6 @@ public class Fatorial {
         int entrada = entradaDados();
         int contador = 1;
 
-
         for (int i = entrada; i >= 1; i--) {
             contador = contador * i;
             System.out.println(contador);
