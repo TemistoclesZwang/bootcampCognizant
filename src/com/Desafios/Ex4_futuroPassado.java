@@ -20,7 +20,3 @@ public class Ex4_futuroPassado {
     }
 
 }
-
-//a+b
-//b+c
-//a+c

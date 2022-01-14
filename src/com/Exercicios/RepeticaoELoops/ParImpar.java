@@ -20,6 +20,7 @@ public class ParImpar {
             entradaNumero = sc.nextInt();
             encontrarParImpar(entradaNumero);
             contador++;
+
         }
     }
 
