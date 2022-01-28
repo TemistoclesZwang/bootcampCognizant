@@ -17,7 +17,7 @@ public class RankearBancos {
         }
         return valores;
     }
-//!pegar a lista de todos os bancos aqui da clase ListaBancos
-//!e relacionar cada banco com um valor da lista gerada pela classe rankear
+//!pegar a lista com os bancos da clase ListaBancos
+//!e relacionar cada banco com um valor da lista gerada pelo método Rankear()
 }
 
