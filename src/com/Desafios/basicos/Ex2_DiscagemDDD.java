@@ -1,4 +1,4 @@
-package com.Desafios;
+package com.Desafios.basicos;
 
 //Complete os espaços em branco com o seu código
 import java.util.Scanner;

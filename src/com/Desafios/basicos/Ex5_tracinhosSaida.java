@@ -1,4 +1,4 @@
-package com.Desafios;
+package com.Desafios.basicos;
 
 public class Ex5_tracinhosSaida {
     public static void main(String[] args) {
