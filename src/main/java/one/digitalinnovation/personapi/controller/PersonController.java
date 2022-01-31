@@ -25,10 +25,10 @@ import java.util.List;
 @RequestMapping("/api/v1/people")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonController {
-    @GetMapping
-    public String getBook() {
-        return "Hello World";
-    }
+//    @GetMapping
+//    public String getBook() {
+//        return "Hello World";
+//    }
 
     private PersonService personService;
 
@@ -38,10 +38,10 @@ public class PersonController {
         return personService.createPerson(personDTO);
     }
 //!erro nesse mapping
-//    @GetMapping
-//    public List<PersonDTO> listAll() {
-//        return personService.listAll();
-//    }
+    @GetMapping
+    public List<PersonDTO> listAll() {
+        return personService.listAll();
+    }
 
     @GetMapping("/{id}")
     public PersonDTO findById(@PathVariable Long id) throws PersonNotFoundException {
