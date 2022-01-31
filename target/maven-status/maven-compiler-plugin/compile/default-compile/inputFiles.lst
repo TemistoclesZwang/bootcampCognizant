@@ -1,0 +1,12 @@
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/entity/Person.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/enums/PhoneType.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/dto/request/PhoneDTO.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/exception/PersonNotFoundException.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/dto/request/PersonDTO.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/mapper/PersonMapper.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/repository/PersonRepository.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/service/PersonService.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/entity/Phone.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/controller/PersonController.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/PersonapiApplication.java
+/home/temis_zwang/IdeaProjects/untitled/personapi_dio_live_coding-master/src/main/java/one/digitalinnovation/personapi/dto/response/MessageResponseDTO.java
