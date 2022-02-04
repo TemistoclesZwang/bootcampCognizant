@@ -22,10 +22,14 @@ import javax.persistence.Id;
 public class Phone {
 
     @Id
+//    o banco de dados vai gerar os valores da PK automaticamente
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Enumerated(EnumType.STRING)
+//    column é usado para criar uma regra
+//    nesse exemplo photype e number não podem ser nulos
+//    são campos obrigatórios
     @Column(nullable = false)
     private PhoneType type;
 

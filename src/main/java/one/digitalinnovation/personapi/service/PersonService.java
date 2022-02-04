@@ -14,6 +14,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+//service indica que vai gerenciar uma
+// classe responsável pelas regras de negocio
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonService {
 

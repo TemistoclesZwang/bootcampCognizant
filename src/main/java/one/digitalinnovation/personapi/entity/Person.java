@@ -24,6 +24,7 @@ import java.util.List;
 public class Person {
 
     @Id
+//    geração automatica de ID do tipo identity
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -32,11 +33,12 @@ public class Person {
 
     @Column(nullable = false)
     private String lastName;
-
+//? unique faz com que o CPF seja único ou seja PK
     @Column(nullable = false, unique = true)
     private String cpf;
 
     private LocalDate birthDate;
+//? relacionamento 1 para muitos
 
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
     private List<Phone> phones;

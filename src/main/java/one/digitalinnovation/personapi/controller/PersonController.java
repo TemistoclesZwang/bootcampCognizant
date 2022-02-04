@@ -5,6 +5,7 @@ import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
 import one.digitalinnovation.personapi.entity.Person;
 import one.digitalinnovation.personapi.exception.PersonNotFoundException;
+import one.digitalinnovation.personapi.repository.PersonRepository;
 import one.digitalinnovation.personapi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -30,14 +31,25 @@ public class PersonController {
 //        return "Hello World";
 //    }
 
-    private PersonService personService;
+//injeção de dependencia da classe repository
+//private PersonRepository personRepository;
 
+//@Autowired //para indicar que a injeção repository é aqui dentro
+//public PersonController (PersonRepository personRepository){
+//    this.personRepository = personRepository;
+//}
+
+    private PersonService personService;
     @PostMapping
+//post = criar
     @ResponseStatus(HttpStatus.CREATED)
+//    para retornar o status code
     public MessageResponseDTO createPerson(@RequestBody @Valid PersonDTO personDTO) {
+//tipo post precisar ter o corpo da requisição como argumento
+//RequestBody para entender que o argumento vai ser passado por requisição
         return personService.createPerson(personDTO);
     }
-//!erro nesse mapping
+//!não pode ter dois mapping iguais
     @GetMapping
     public List<PersonDTO> listAll() {
         return personService.listAll();
